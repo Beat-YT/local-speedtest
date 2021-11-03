@@ -1,0 +1,21 @@
+{
+  "name": "local-speedtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "resolutions": {
+    "**/ua-parser-js": "0.7.28"
+  },
+  "dependencies": {
+    "@hapi/accept": "^5.0.2",
+    "express": "^4.17.1",
+    "ua-parser-js": "^1.0.1",
+    "ws": "^8.2.3",
+    "xmlbuilder2": "^3.0.2"
+  }
+}

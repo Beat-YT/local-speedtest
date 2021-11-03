@@ -1,0 +1,122 @@
+{
+    "subdomain": "",
+    "testConfiguration": {
+        "testConfigurationId": 116,
+        "subscriptionId": 1035,
+        "subdomain": "",
+        "createdDate": "2017-03-06T23:04:38.000Z",
+        "modifiedDate": "2018-03-07T12:52:29.000Z",
+        "allowedServers": 12,
+        "serverNetwork": "customer",
+        "dataProtectionContactId": 0,
+        "resellerContactId": 0,
+        "apiKey": null,
+        "originHost": null,
+        "autoStart": false,
+        "clientIcon": "user",
+        "customCssFile": "",
+        "customerServers": [
+            1
+        ],
+        "distanceUnits": "km",
+        "embedUrls": [],
+        "hostSelectDisabled": false,
+        "httpsOnly": false,
+        "isActive": true,
+        "isUpgradeDisabled": false,
+        "allowSpeedtestUrls": false,
+        "passwordProtected": false,
+        "themeColors": {
+            "backgroundColor": "#ffffff",
+            "primaryColor": "#4a88d6"
+        },
+        "serverIcon": "internet",
+        "speedLabel": "Mbps",
+        "defaultMaxSpeed": "2g",
+        "testTypes": [
+            "ping",
+            "download",
+            "upload",
+            "jitter"
+        ],
+        "ipServerAssignment": {
+            "allowed": true,
+            "enabled": true
+        },
+        "isPaid": true,
+        "isEUCountry": false
+    },
+    "config": {
+        "rootDomain": "localhost",
+        "logoCdnUrl": "https:\u002F\u002Flogos.speedtestcustom.com\u002Fprod\u002F",
+        "countriesWithVat": [
+            "AT",
+            "BE",
+            "BG",
+            "HR",
+            "CY",
+            "CZ",
+            "DK",
+            "EE",
+            "FI",
+            "FR",
+            "DE",
+            "GR",
+            "HU",
+            "IE",
+            "IT",
+            "LV",
+            "LT",
+            "LU",
+            "MT",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SK",
+            "SI",
+            "ES",
+            "SE",
+            "GB"
+        ],
+        "premiumSubscriptionBasePrice": 1995,
+        "premiumSubscriptionServerPrice": 995,
+        "auth0": {
+            "domain": "ookla.auth0.com",
+            "clientId": "qZ22rLQ3HmY102QN05DIQGqFkz3AHdFr",
+            "loginRedirectUrl": "https:\u002F\u002Faccount.speedtestcustom.com",
+            "logoutRedirectUrl": "https:\u002F\u002Faccount.speedtestcustom.com\u002Flogin",
+            "forgotPasswordLink": "https:\u002F\u002Faccount.speedtestcustom.com\u002Freset-password",
+            "authorization": {
+                "audience": "https:\u002F\u002Fapi.st-connect.com"
+            },
+            "management": {
+                "connection": "OOKLA-AUTH"
+            }
+        },
+        "privacyPolicyUpdated": "2018-05-18"
+    },
+    "testReport": null,
+    "serverList": [],
+    "testGlobals": {
+        "ipAddress": "ipAddress",
+        "ispName": "ispName",
+        "ispId": 1,
+        "location": {
+            "latitude": 0,
+            "longitude": 0,
+            "cityName": "cityName",
+            "countryCode": "countryCode",
+            "countryName": "countryName",
+            "regionCode": "regionCode",
+            "regionName": "regionName"
+        }
+    },
+    "performanceConfig": false,
+    "logging": {
+        "jwtToken": "token",
+        "buildId": 1629926480935,
+        "level": "info"
+    },
+    "engine": {}
+}
